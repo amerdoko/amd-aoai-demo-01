@@ -8,7 +8,7 @@ import azure.cognitiveservices.speech as speechsdk
 
 st.set_page_config(layout="wide")
 
-with open('config.json') as f:
+with open('src/ContosoSuitesDashboard/config.json') as f:
     config = json.load(f)
 
 aoai_endpoint = config['AOAIEndpoint']
